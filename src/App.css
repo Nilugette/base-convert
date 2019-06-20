@@ -2,16 +2,9 @@
   text-align: center;
 }
 
-/* colors */
-$white: #EFEFEF;
-$black: #000000;
-$grey:  #A9A9A9;
-$blue:  #CAEBF2;
-$red:   #FF3B3F;
-
 body {
-	background-color: $white;
-	color: $red;
+	background-color: green;
+	color: red;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -23,7 +16,7 @@ body {
 	font-size: 56px;
 }
 .inputForm {
-	background-color: $blue;
+	background-color: blue;
 	height: 50px;
 	font-size: 25px;
 }
@@ -43,10 +36,10 @@ input[type=radio] {
 input[type=number] {
 	outline: none;
 	border: 0;
-	color: $red;
+	color: red;
 	border-radius: 100px;
 }
 
 input[type=number]:focus {
-	box-shadow: 0 0 5px $red;
+	box-shadow: 0 0 5px red;
 }
